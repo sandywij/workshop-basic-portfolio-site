@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .hero {
+        width: 100%;
+        height: 80vh;
+        min-height: 600px;
+      }
+
+      .project-info {
+        max-width: 600px;
+        margin: auto;
+        padding: 24px;
+      }
+
+      img.detail-image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      blockquote {
+        background: #c3fae8;
+        border-left: 10px solid #20c997;
+        font-size: 1.5em;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+      }
+      blockquote:before {
+        color: #20c997;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+      }
+      blockquote p {
+        display: inline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div id="branding"><a href="index.html">Ada Lovelace</a></div>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html" aria-current="page">about</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="hero">
+        <img
+          class="hero-image"
+          src="img/LdSWK0Ozhfc.jpg"
+          alt="title of project"
+        />
+      </section>
+
+      <section class="project-info">
+        <h1>Project 1</h1>
+        <p>
+          Technology, external partners social capital black lives matter relief
+          social enterprise incubator because. Social capital deep dive,
+          innovate segmentation social intrapreneurship inspirational. Co-create
+          technology innovate, challenges and opportunities mass incarceration
+          contextualize correlation storytelling thought partnership. The
+          resistance ideate, collaborative consumption energize boots on the
+          ground. Compassion; social capital innovation cultivate storytelling
+          initiative policymaker save the world. Progress, revolutionary,
+          compassion, living a fully ethical life social entrepreneurship the
+          resistance.
+        </p>
+
+        <img
+          class="detail-image"
+          src="img/fQE0wu9hbmc.jpg"
+          alt="title of project"
+        />
+      </section>
+
+      <section class="project-info">
+        <h2>User Interviews</h2>
+        <blockquote>
+          For me, DSI is deploying innovation–the activity of delivering a
+          product or service as well as aligning the incentives of these
+          activities with mission-based outcomes.
+        </blockquote>
+        <p>
+          Technology, external partners social capital black lives matter relief
+          social enterprise incubator because. Social capital deep dive,
+          innovate segmentation social intrapreneurship inspirational. Co-create
+          technology innovate, challenges and opportunities mass incarceration
+          contextualize correlation storytelling thought partnership. The
+          resistance ideate, collaborative consumption energize boots on the
+          ground. Compassion; social capital innovation cultivate storytelling
+          initiative policymaker save the world. Progress, revolutionary,
+          compassion, living a fully ethical life social entrepreneurship the
+          resistance.
+        </p>
+      </section>
+
+      <section class="project-info">
+        <h2>Outcomes</h2>
+
+        <ul>
+          <li>Milk</li>
+          <li>Sugar</li>
+          <li>Butter</li>
+        </ul>
+
+        <ol>
+          <li>Milk</li>
+          <li>Sugar</li>
+          <li>Butter</li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
