@@ -28,12 +28,19 @@
         object-fit: cover;
       }
       #aboutme-copy {
-        align-self: start;
+        align-self: center;
       }
 
-      @media only screen and (min-width: 720px) {
+      @media only screen and (max-device-width: 720px) {
+        section {
+          grid-template-columns: 1fr;
+        }
+        #aboutme-img img {
+          max-height: 66vh;
+        }
+
         #aboutme-copy {
-          align-self: center;
+          align-self: start;
         }
       }
     </style>
@@ -51,7 +58,11 @@
     <main>
       <section>
         <div id="aboutme-img">
-          <img src="img/headshot.jpg"loading="lazy" alt="Headshot of Ada Lovelace" />
+          <img
+            src="img/headshot.jpg"
+            loading="lazy"
+            alt="Headshot of Ada Lovelace"
+          />
         </div>
         <div id="aboutme-copy">
           <h1>About Me</h1>
