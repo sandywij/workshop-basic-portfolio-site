@@ -1,20 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:700|IBM+Plex+Sans:400');
+@import url("https://fonts.googleapis.com/css?family=Overpass+Mono:700|IBM+Plex+Sans:400");
 
-html {font-size: 16px;}
+html {
+  font-size: 16px;
+}
 
 body {
   background-color: #e6fcf5;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   line-height: 1.65;
   color: #333;
 }
 
-p {margin-bottom: 1.15rem;}
+p {
+  margin-bottom: 1.15rem;
+}
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 2.75rem 0 1.05rem;
-  font-family: 'Overpass Mono', monospace;
+  font-family: "Overpass Mono", monospace;
   font-weight: 400;
   line-height: 1.15;
 }
@@ -24,27 +32,37 @@ h1 {
   font-size: 3.052em;
 }
 
-h2 {font-size: 2.441em;}
+h2 {
+  font-size: 2.441em;
+}
 
-h3 {font-size: 1.953em;}
+h3 {
+  font-size: 1.953em;
+}
 
-h4 {font-size: 1.563em;}
+h4 {
+  font-size: 1.563em;
+}
 
-h5 {font-size: 1.25em;}
+h5 {
+  font-size: 1.25em;
+}
 
-small, .text_small {font-size: 0.8em;}
+small,
+.text_small {
+  font-size: 0.8em;
+}
 
 #branding {
   font-family: "Overpass Mono", monospace;
-  font-size: 24px;
+  font-size: 1.25rem;
   margin-left: 20px;
   user-select: none;
 }
 
-
 nav {
   display: flex;
-  height: 72px;
+  height: 5rem;
   justify-content: space-between;
   align-items: center;
   margin: none;
@@ -64,17 +82,23 @@ main {
 nav a,
 nav a:hover,
 nav a:focus {
-	color: #363636;
-	text-decoration: none;
+  color: #363636;
+  text-decoration: none;
 }
 
-nav [aria-current=page] {
-	color: #363636;
-	border-bottom: .25em solid #444;
+nav [aria-current="page"] {
+  color: #363636;
+  border-bottom: 0.25em solid #444;
 }
 
 img.hero-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-device-width: 720px) {
+  html {
+    font-size: 28px;
+  }
 }
