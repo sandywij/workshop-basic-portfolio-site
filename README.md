@@ -9,9 +9,12 @@ Welcome to the basic course repository for the HTML/CSS Workshop at SVA DSI, Fal
 ## Domain Registrars
 
 [porkbun](https://porkbun.com/)
+
 [hover](https://hover.com/)
+
 [namecheap](https://namecheap.com/)
-[google domains] (https://domains.google/)
+
+[google domains](https://domains.google/)
 
 
 
