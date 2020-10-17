@@ -97,7 +97,7 @@ img.hero-image {
   object-fit: cover;
 }
 
-@media only screen and (max-device-width: 720px) {
+@media only screen and (max-device-width: 768px) {
   html {
     font-size: 28px;
   }
